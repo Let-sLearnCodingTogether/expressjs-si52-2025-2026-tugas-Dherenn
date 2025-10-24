@@ -25,7 +25,7 @@ export const createBahan = async (req,res)=>{
             expiryDate : request.expiryDate
         })
         res.status(201).json({
-            mahasiswa: "Bahan berhasil ditambahkan",
+            message: "Bahan berhasil ditambahkan",
             data: response
         })
 
