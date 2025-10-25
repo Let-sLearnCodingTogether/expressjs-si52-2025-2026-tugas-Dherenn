@@ -8,4 +8,6 @@ api.post("/bahan", bahanController.createBahan)
 api.put("/bahan/:id", bahanController.updateBahan)
 api.delete("/bahan/:id", bahanController.deleteBahan)
 
+
+
 export default api

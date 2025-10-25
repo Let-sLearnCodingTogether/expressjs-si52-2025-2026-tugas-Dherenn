@@ -18,7 +18,9 @@ const bahanSchema = new mongoose.Schema(
             trim: true,
         }
     },
-    {timestamps : true}
+    {
+        timestamps : true
+    }
 )
 
 const bahanModel = new mongoose.model ("Bahan", bahanSchema);
