@@ -132,10 +132,28 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Token",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRoZXJlbiIsImVtYWlsIjoiZGhlcmVuaGFsaW1AZ21haWwuY29tIiwiaWF0IjoxNzYxMzk4NjgzLCJleHAiOjE3NjE0MDIyODN9.Ql1WmQZnPkte7DrYw2KOgUZLODHekDTfATJPi-wn2cw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/me",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"me"
+					]
+				}
 			},
 			"response": []
 		}
